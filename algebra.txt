@@ -1,0 +1,7 @@
+//Algebra Notes:
+
+These notes will go over the very basics of algebra in order to remaster higher level mathematics. Most people do not do well in higher level mathematics simply because
+their foundation in algebra is not strong enough.
+
+These notes will contain definitions, examples, and problems with my solutions to them.
+

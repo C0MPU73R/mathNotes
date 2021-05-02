@@ -1,0 +1,113 @@
+//Pre-Calc Notes:
+
+These notes will go over the very basics of pre-calculus in order to remaster higher level mathematics. Most people do not do well in higher level mathematics simply because
+their foundation in pre-calculus is not strong enough.
+
+These notes will contain definitions, examples, and problems with my solutions to them.
+
+The Slope:
+The basics of a slope is simply understanding how the rate of something chaning works. This is introduced using a 2 Dimensional graph with the familar x and y axes X being the horizontal, and Y
+being the vertical. To understand the very basics of rate of change, we start with very familar linear rates of change, represented by a line. This line is present on the XY graph in someoritenation
+that is relevant to the rate and equation of that specific line. To find the slope of a line, we first need 2 points. We usually use generic points (x1,y1) and (x2,y2). These points both contain
+places on the line. To find the slope, or rate of change, we use the slope formula represented by the letter m. The formula is m = (rise)/ (run), where rise is how much the y position has changed
+between both y coordinates, y1 and y2 and where the run is how much the x position has changed between both x coordinates, x1 and x2. This formula is better represented as m = delta y / delta x
+where delta refers to the greek symbol used in mathematics to represent change. Specifically to this example, the equation would be  m  = (y2 - y1) / (x2 - x1). This will then find you the slope of
+the line that these 2 points are going through. This rate of change, m can even help us find more information about the line in question such as the formula of the line itself. A line is represented
+generally by the formula y = mx + b, which is called the slope intercept formula, where y is your y value, m is the calculated slope valued, x is your x value, and b is the y value that you are crossing
+on the y-axis. To get to this form, we use the point-slope formula, which is written as: y - y1 = m (x - x1) where y is any generic y value on the line, y1 is your specific y component of your point
+on the line, m is the slope, x is the generic x value of the matching y value of a point found on a line, and x1 is the x value of the chosen point on the line, where its partner or y value
+is still y1. There is technically a z value for the third dimension, but we will use that when doing problems with 3 dimensions.
+Some basic notes are lines that are parallel have the same slope and lines that are perpendicular or cross at 90 degress have inverted negative slopes to one another.
+We can also have a line at a constant value where y =c. This will just be a horizontal line crossing the y axis at said c point and the x values are infinite. The same goes for a line
+where a x-value is constant, but its the opposite. So the line is vertical this time at said constant value on the x axis, where the y values are infinite.
+
+
+
+Inlcination:
+Inclination will deal with the notion of lines at some angle. When we have a line at an angle, we can make a right triangle from it, if it is under 90 degress. This means we can applt the properties
+of right triangles to help us figure out information about our line. The right triangle properties come from Pythora's theorem. This theorem is known as when we have a right triangle, we can relate
+all of the sides; a^2 + b^2 = c^2; where a is the length of the triangle from the origin, b is the height of the triangle from the x axis, and c is the hypotenuse, aka the line of the triangle
+that is opposite of the 90 degree angle.
+
+This can be further categorized in the world of trigonometry, or the study of triangles.
+The study of triangles introduces to us some very neat functions that can help inform us about the triangle. We have this function called the sine function that relates the opposite side of an angle
+to the hypotenuse of the triangle. We have another funnction called cosine that relates the adjacent side of the angle to the hypotenuse of the triangle. We then have a function called
+tangent that relates the opposite side of the angle to the adjacent side of the triangle to the angle. These are commonly known as sin, cos, and tan where
+sin = opposite / hypotenuse, cos = adjacent / hypotenuse, and tan = opposite / adjacent. The common anigram to remember this is SOHCAHTOA.
+
+The tangent function is really interesting because it has the exact same properties as the slope of a line, because the opposite referes to the height of a line, while the adjacent refers to
+the length of the line on the x axis. This tells us that the hypotenuse is the line, while the slope of it is the same as the tangent of it, which is pretty cool.
+A ton of cool stuff can be found using these known properties.
+
+
+We also need to know how to convert back and forth between degrees and radians where the conversion factor is degrees to radians is done by d * pi/180 and radians to degrees is done by r * 180/pi
+This is very helpful for applications such as physics.
+
+
+We also need to mention this cool thing called the distance formula of a line, which is a quick formula to find the distance between 2 points on line. This can be easily applied to finding the length of a line
+or the hypotenuse of a triangle. So this, is basically Pythogora's theorem written in a different way. D^2 = (x2-x1)^2 + (y2-y1)^2.
+Super useful for reading graphs in physics or chemistry class.
+
+
+
+
+
+Functions:
+Functions are basically the same ones as we write in software. You give it an input and the function gives you some output, depending on that input of course.
+This works with the idea of some independant variable, called x, that we can choose, and we will get a dependant variable, called y based on that x input.
+For the pure definition of a function, every input has exactly one output. Input is x, output is y.
+Alot of things are functions such as the formula for the area of a circle: a = pi * r ^2, where r is the input, and a is the output.
+We can also have equations like: y = 3x^2 - 4x + 2
+Some ways to tell if a graph is a function if you only have the graph: A function will pass a vertical line test, where a vertical line is drawn on the graph and it only crosses one point
+on the graph.
+
+There is a specific type of function called a one-to-one function where each input has a unique output, aka there are no repeated y output values. 
+This can be tested by something called the horizontal line test where the line will cross the graph at one point only.
+
+
+A circle is an interesting equation to look at: the general equation for a circle is x^2 + y^2 = r^2, where x is the x-component of the point on a cicle, y is the y component of the
+point on a circle and r is the radius of that circle. This is specifically for only a circle at the origin. To create a more generalized equation, we have to consider when the circle can be shift in
+some way aka, its on the grid, but not at the origin. This is represented by (x-h)^2 + (y-k)^2 = r^2, where the new variables h and k represent an offset from the 0 point of the grid.
+Reminder: The offset will be given by h,k, but take note when a negative sign is not present in the equation anymore; this means you have a negative component because it made a positive when
+it was plugged in the equstion. ex: (x+2)^2 + (y-2)^2 = r^2 is centered at -2,2 due to (x+2)^2 being the same as (x- (-2))^2, where the actualy h value is -2.
+
+It's not actually a function though, due to not passing the vertical line test as well as well as when we solve it;
+ex: x^2 + y^2 = 25
+    y^2 = 25-x^2
+    y = + or - sqrt(25-x^2), when we have this notation in the end, its not a function
+
+But we can actually take parts of circles, where they are considered functions.
+For example, if we just take the top half of a circle; ex: f(x)= sqrt(25-x^2)
+or the bottom half: g(x)= - sqrt(25-x^2)
+
+These are actually both valid functions, which is weird but cool.
+
+s
+
+There are also a specific set of functions called piece-wise functions, which look very strange, but are quite cool.
+These work where the function basically changes depending on the x value aka the input. Kinda neat.
+One of the most famous is the absolute value function: |x|, which is just the distance from the origin. Specifically, f(x)  = |x|  = x if x >= 0
+																   = -x if x<0
+Aside: This is alot like programming syntax, which is awesome.(Technically, programming syntax is like this)
+
+
+You can graph each piece individually of a piece-wise function, usually for a given domain for convenience.
+
+
+
+Domain and Range:
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
