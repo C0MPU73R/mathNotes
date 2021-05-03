@@ -32,3 +32,50 @@ We also have serveral other notable points such as a quarter of the circle, at p
 This value is easily found by taking the circumference of out our unit circle, 2pi and taking 1/4 of it which =2pi(1/4) = pi / 2. This is in the counter-clockwise direction. 
 
 We also have a point to represent 3/4 of the circle at the point (0,-1), which is 3pi / 2 or 275 degrees.
+
+We can also look at how arcs on the unit circle work:
+If we are given a segment, we can ffind  a way to map it it on a circle.
+Let's take the segment [0,pi/2] and map it on the circle with the connecting points of (0,1) and (1,0). 
+If we take [a,b] this is a closed interval which means a is the inital point of the arc and b is the terminal point of the arc.
+aka Therefore the clossed interval [0, pi/2] has the inital point (1,0) and terminal point (0,1)
+
+We can now use the all the above ideas to define two major functions that apply to circles.
+These function tools will allow us to model cools things that happen periodically; such as the tides in a body of water, the amount of sunlight during the
+days of the years, the orbit of the planets, and more.
+
+We can define two major circular functions
+The Sine function and the Cosine functon.
+ASIDE: Awesome functions! Can do really neat things with these!
+
+We can go ahead and define these functions in terms of the unit circle
+
+Let's go ahead and look at the unit circle and apply some arc to it.
+Let's have the arc start at the point (1,0), which is directly on the x-axis.
+This will be called our initial point.
+We will have the arc end on some terminal point called P(t), where t is the length of the arc.
+We can now define the cosine and sine of the arc as the x and y coordinates of point P.
+This makes its so: P(t) = (cos(t), sin(t))
+Hence: The cosine and sine values are determined by the arc t. And the cosine and sin are the functions of the arc t.
+*If the real number t is the directed length of an arc (positive or negative) measured on the unit circle x^2 + y^2  = 1
+with the initial point (1,0) and terminal point (x,y), then cosine of t and sine of t are defined to be
+cos(t) = x and sin(t) = y.
+
+Something easy to point out: We can easily find the sine or cosine of certain values based on the simple points we already know
+so for (-1,0) we know this arc length to be pi:therefore the cosine of pi is -1 and the sine of pi is 0.
+
+Cosine and sine functions are known to be  circular functions because their values are determined by the coordinates of points on the uunit circle.
+Given a real number t, there is a corresponding arc starting at the point (1,0) of some directed length, t that lies on the unit circle.
+The coordinates of the end point of this arc determines the values of cos(t) and sin(t)
+
+
+Some basic properties of the sine and cosine functions:
+ - Domain and range:
+Sine's domain exists infiintely in both directions, and its range will propegate between one aand negative one
+The same thiing for cosine.
+
+Applying Pythagoras' identitiy.
+Since we now knoe the equation for a circle, specifically the unit circle where x^2 + y^2 = 1, we can now
+apply our new found sin and cos equations. Since sin(t) = y and cos(t) =  x,
+they can fill in the spot in our circle equation for x and y
+This gives us : (sin(t))^2 + (cos(t))^2 = 1.
+
